@@ -1,2 +1,10 @@
+@import './base/base.scss';
+@import './base/variables.scss';
 @import '../components/Header/Header.scss';
 @import '../components/Footer/Footer.scss';
+@import '../pages/About/About.scss';
+@import '../pages/Services/Services.scss';
+@import '../pages/Clients/Clients.scss';
+@import '../pages/PriceList/PriceList.scss';
+@import '../pages/Contacts/Contacts.scss';
+@import '../pages/News/News.scss';
