@@ -1,16 +1,45 @@
 .footer{
     width: 100%;
-    height: 150px;
+    height: 450px;
     background-color: $dark-blue;
     color: white;
 
-    .logo{
-        font-size: 25px;
-        color: orange;
-    }
-    &__social{
-        width: 200px;
+   
+
+    &__up{
         display: flex;
         justify-content: space-between;
+        padding-top: 100px;
+    }
+
+    &__title{
+        font-size: 25px;
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
+    &__social{
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__menu{
+        border-top: 1px solid white;
+        text-align: center;
+        margin-top: 25px;
+
+        p{
+            margin-top: 25px;
+        }
+    }
+
+    &__text{
+        width: 535px;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        text-align: center;
     }
 }

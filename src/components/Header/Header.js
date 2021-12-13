@@ -1,10 +1,12 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
+import {Link} from 'react-router-dom'
+
 function Header() {
     return (
         <header className='header'>
             <div className="container row">
-                <h1>Orion</h1>
+                <Link to="/" className='logo'><h3>Orion</h3></Link>
                 <nav>
                     <ul className='header__menu'>
                         <li>
