@@ -21,7 +21,15 @@ const Accordion = ( { title, content }) => {
                         {isActive && <div className="accordion-content">{content}</div>}
                     </div>
                 ) : (
-                <p>The document is at least 600px wide.</p>
+                    <div className='footer__menu'>
+                        <h3>Section 1</h3>
+                        <ul>
+                            <li>Theme one</li>
+                            <li>Theme two</li>
+                            <li>Theme three</li>
+                            <li>Theme four</li>
+                        </ul>
+                    </div>
                 )
                 }
             </Media>

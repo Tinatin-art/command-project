@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 function Header() {
     return (
         <header className='header'>
-            <div className="container row">
+            <div className="container row header__wrapper">
                 <Link to="/" className='logo'><h3>Orion</h3></Link>
                 <nav>
                     <ul className='header__menu'>
@@ -13,16 +13,16 @@ function Header() {
                         <NavLink to="/about" className="header__menu-links">About</NavLink>
                         </li>
                         <li>
-                        <NavLink to="/price-list" className="header__menu-links">Services</NavLink>
+                        <NavLink to="/services" className="header__menu-links">Services</NavLink>
                         </li>
                         <li>
-                        <NavLink to="/news" className="header__menu-links">Clients</NavLink>
+                        <NavLink to="/price-list" className="header__menu-links">PriceList</NavLink>
                         </li>
                         <li>
-                        <NavLink to="/clients" className="header__menu-links">PriceList</NavLink>
+                        <NavLink to="/news" className="header__menu-links">News</NavLink>
                         </li>
                         <li>
-                        <NavLink to="/services" className="header__menu-links">News</NavLink>
+                        <NavLink to="/clients" className="header__menu-links">Clients</NavLink>
                         </li>
                         <li>
                         <NavLink to="/contacts" className="header__menu-links">Contacts</NavLink>

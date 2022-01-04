@@ -1,11 +1,16 @@
-import React from 'react'
+import { useEffect } from "react";
 
-function PriceList() {
-    return (
-        <div>
-            <h1>PriceList</h1>
-        </div>
-    )
-}
+const ScrollToTop = () => {
+      useEffect(() => {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "smooth"
+        });
+      }, []);
 
-export default PriceList
+      return null;
+    };
+
+export default ScrollToTop;
+
